@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 import {Divider} from '@material-ui/core';
 import Homepage from './home'
@@ -17,12 +16,12 @@ export default class Navigation extends Component {
         return (
             <div class="">
             <BrowserRouter>
-<Navbar fluid collapseOnSelect  className="navbar" style={{'width': "100%"}}>
+<Navbar collapseOnSelect  className="navbar" variant="light">
 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse>
+  <Navbar.Collapse >
       <Nav className="m-auto">
-            <Nav.Link href="/about">About Me</Nav.Link>
+            <Nav.Link className="nav-link" href="/about">About Me</Nav.Link>
                         <Divider orientation="vertical" flexItem/>
                   <Nav.Link href="/timeline">Timeline</Nav.Link>
       </Nav>

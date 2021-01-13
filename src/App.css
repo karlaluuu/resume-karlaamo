@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-color: #DADACF !important;
 }
-body{
-  background-color: #DADACF;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,13 +42,22 @@ body{
 }
 
 .navbar{
-  background-color: #E5E3DE;
+  background-color: #CDB7AA;
   justify-content: center;
   align-items: center;
   position: absolute;
   width: 100% !important;
+  font-weight: bold;
 }
 
+.nav-link
+{
+  color: #F6EFE9 !important;
+}
+
+.middle-divider{
+  color: white !important;
+}
 .homeimg {
   opacity: 1;
   display: block;
@@ -75,11 +79,11 @@ body{
 }
 
 .contact-icons{
-  color: #A78D8A
+  color: #475E60
 }
 .linked-in social, .github social, .instagram social, .youtube social
 {
-  color:#A78D8A
+  color:#475E60
 }
 .timeline, .project-timeline
 {
