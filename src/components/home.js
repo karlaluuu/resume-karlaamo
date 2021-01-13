@@ -6,7 +6,7 @@ import Projects from './projects'
 export default class Homepage extends Component {
     render(){
 return(
-<Carousel>
+<Carousel style={{'top': "100px"}}>
 <Carousel.Item interval={3000}>
 <img className="homeimg" style={{'height': "835px", 'padding-left': "100px", 'padding-right': "100px"}} src={'img/1.jpg'} alt="homeimg"/>
 <Carousel.Caption>
