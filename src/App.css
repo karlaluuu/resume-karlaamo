@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #A78D8A;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F4D5C9;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo{
+  height: 75px;
+  width: 200px;
+}
+
+.navbar{
+  background-color: #E5E3DE;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.homeimg {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.btn, .btn-primary .btn-learn
+{
+  background-color: #E5E3DE !important;
+  color: black !important;
+  outline: black !important;
+}
+.btn-learn:hover, .btn-learn:active, .btn-learn:focus
+{
+  color: #483330 !important;
+  text-decoration: none !important;
 }
