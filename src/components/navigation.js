@@ -17,7 +17,7 @@ export default class Navigation extends Component {
         return (
             <div class="">
             <BrowserRouter>
-<Navbar fluid collapseOnSelect  className="navbar">
+<Navbar fluid collapseOnSelect  className="navbar" style={{'width': "100%"}}>
 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse>
