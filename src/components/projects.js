@@ -12,7 +12,7 @@ export default class Projects extends Component{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
     <h3 className="vertical-timeline-element-title">Project 1</h3>
@@ -25,7 +25,7 @@ export default class Projects extends Component{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
     <h3 className="vertical-timeline-element-title">Project 2</h3>
@@ -38,7 +38,7 @@ export default class Projects extends Component{
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
     <h3 className="vertical-timeline-element-title">Project 3</h3>
@@ -49,7 +49,7 @@ export default class Projects extends Component{
           <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StarIcon />}
   />
 </VerticalTimeline>
