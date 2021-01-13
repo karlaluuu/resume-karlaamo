@@ -9,7 +9,7 @@ export default class Contact extends Component
     render()
     {
         return(
-            <div className="contact">
+            <div className="contact" style={{'margin-top': "120px"}}>
             <img src={'img/contact1.jpg'} alt="contact1" style={{'height': "600px", 'width': "400px", 'margin-top': "120px", "margin-left": "300px", "float": "left"}}/>
             <div style={{'height': "200px", 'width': "550px",  "margin-right": "400px", 'margin-top': "120px","float": "right"}}>
             <img src={'img/contact.jpg'} alt="contact-logo" style={{'height': "200px", 'width': "550px"}}/>
