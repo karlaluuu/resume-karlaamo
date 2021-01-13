@@ -9,7 +9,7 @@ export default class Timeline extends Component{
     render()
     {
         return(
-<VerticalTimeline>
+<VerticalTimeline style={{'top': "100px"}}>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
