@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, BrowserRouter, Link } from 'react-router-dom'
 import {Divider} from '@material-ui/core';
 import Homepage from './home'
 import logo from './logo.png'
@@ -24,7 +24,7 @@ export default class Navigation extends Component {
       <Nav className="m-auto">
             <Nav.Link href="/about">About Me</Nav.Link>
                         <Divider orientation="vertical" flexItem/>
-                  <Nav.Link href="/timeline">Timeline</Nav.Link>
+                  <Link to="/timeline">Timeline</Link>
       </Nav>
         <Navbar.Brand href="/"><img src={logo} alt="logo" className="logo"/></Navbar.Brand>
     <Nav className="m-auto" pullRight>
