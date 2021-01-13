@@ -67,10 +67,10 @@ export default class Timeline extends Component{
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Diversified Technology Solutions Internationa Inc</h3>
+    <h3 className="vertical-timeline-element-title">Diversified Technology Solutions International Inc</h3>
     <h4 className="vertical-timeline-element-subtitle">Makati City, Philippines</h4>
     <p>
-      Human Resource Assistant
+      Human Resource Assistant - Internship/Practicum
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -82,6 +82,7 @@ export default class Timeline extends Component{
     <h3 className="vertical-timeline-element-title">Polytechnic University of the Philippines</h3>
     <h4 className="vertical-timeline-element-subtitle">Sta. Mesa, Manila, Philippines</h4>
     <p>
+      Higher Education (Bachelor's Degree - Undergraduate) <br/>
       Bachelor of Science in Business Administration - Major in Human Resource Development Management
     </p>
   </VerticalTimelineElement>
