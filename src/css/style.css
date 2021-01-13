@@ -47,3 +47,10 @@ body{
   color: #F4D5C9 !important;
   text-decoration: none !important;
 }
+.navbar{
+  background-color: #E5E3DE;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+}
