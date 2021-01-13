@@ -24,7 +24,7 @@ export default class Navigation extends Component {
       <Nav className="m-auto">
             <Nav.Link href="/about">About Me</Nav.Link>
                         <Divider orientation="vertical" flexItem/>
-                  <Nav.Link href="/timeline">Timeline</Nav.Link>
+                  <Nav.Link href="/timeline/">Timeline</Nav.Link>
       </Nav>
         <Navbar.Brand href="/"><img src={logo} alt="logo" className="logo"/></Navbar.Brand>
     <Nav className="m-auto" pullRight>
