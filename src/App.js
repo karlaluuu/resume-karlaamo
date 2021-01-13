@@ -14,7 +14,6 @@ class App extends Component {
    <AnimatedCursor
     color='234,181,168'
     />
-  <Homepage/>
     </ParallaxProvider>
    </div>
   }
