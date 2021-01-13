@@ -38,7 +38,7 @@ export default class Navigation extends Component {
 <Divider variant="middle" className="middle-divider"/>
 <Switch>
 <Route exact path="/" component={Homepage}/>
-<Route exact path="/timeline/" component={Timeline}/>
+<Route exact path="/timeline" component={Timeline}/>
 <Route exact path="/contact" component={Contact}/>
 <Route exact path="/about" component={About}/>
 <Route exact path="/projects" component={Projects}/>

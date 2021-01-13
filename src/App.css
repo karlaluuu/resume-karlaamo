@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #DADACF !important;
+}
+body{
+  background-color: #DADACF;
 }
 
 .App-logo {
@@ -68,4 +72,12 @@
 {
   color: #483330 !important;
   text-decoration: none !important;
+}
+
+.contact-icons{
+  color: #A78D8A
+}
+.linked-in social, .github social, .instagram social, .youtube social
+{
+  color:#A78D8A
 }
