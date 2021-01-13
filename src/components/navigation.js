@@ -39,9 +39,9 @@ export default class Navigation extends Component {
 <Switch>
 <Route exact path="/" component={Homepage}/>
 <Route exact path="/timeline/" component={Timeline}/>
-<Route exact path="/contact/" component={Contact}/>
-<Route exact path="/about/" component={About}/>
-<Route exact path="/projects/" component={Projects}/>
+<Route exact path="/contact" component={Contact}/>
+<Route exact path="/about" component={About}/>
+<Route exact path="/projects" component={Projects}/>
 </Switch>
 </BrowserRouter>
 
