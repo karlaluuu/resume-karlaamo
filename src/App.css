@@ -81,3 +81,7 @@ body{
 {
   color:#A78D8A
 }
+.timeline, .project-timeline
+{
+  top: 100px
+}
