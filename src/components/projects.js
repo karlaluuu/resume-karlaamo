@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
 import StarIcon from '@material-ui/icons/Star';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 
@@ -17,10 +15,10 @@ export default class Projects extends Component{
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <h3 className="vertical-timeline-element-title">Project 1</h3>
+    <h4 className="vertical-timeline-element-subtitle">Project 1</h4>
     <p>
-      Strategy, Social Media
+      Description
     </p>
       <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
   </VerticalTimelineElement>
@@ -30,10 +28,10 @@ export default class Projects extends Component{
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <h3 className="vertical-timeline-element-title">Project 2</h3>
+    <h4 className="vertical-timeline-element-subtitle">Project 2</h4>
     <p>
-      Creative Direction, User Experience, Visual Design
+      Description
     </p>
           <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
   </VerticalTimelineElement>
@@ -43,10 +41,10 @@ export default class Projects extends Component{
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <h3 className="vertical-timeline-element-title">Project 3</h3>
+    <h4 className="vertical-timeline-element-subtitle">Project 1</h4>
     <p>
-      Creative Direction, Visual Design
+      Description
     </p>
           <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
   </VerticalTimelineElement>
