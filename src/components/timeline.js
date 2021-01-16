@@ -9,11 +9,11 @@ export default class Timeline extends Component{
     render()
     {
         return(
-<VerticalTimeline className="timeline">
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(245,193,181)' }}
-    contentArrowStyle={{ borderRight: '7px solid rgb(245,193,181)' }}
+        <VerticalTimeline className="timeline">
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+         contentStyle={{ background: 'rgb(244,233,232)' }}
+    contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
     date="2016 - present"
     iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
     icon={<WorkIcon />}

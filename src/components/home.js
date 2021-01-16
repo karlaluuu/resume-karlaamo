@@ -1,42 +1,78 @@
 import React, {Component} from "react";
-import {Carousel} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import Projects from './projects'
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
+"mdbreact";
 
 
 export default class Homepage extends Component {
     render(){
-return(
-<Carousel style={{'top': "100px"}}>
-<Carousel.Item interval={3000}>
-<img className="homeimg" style={{'height': "835px", 'padding-left': "100px", 'padding-right': "100px"}} src={'img/1.jpg'} alt="homeimg"/>
-<Carousel.Caption>
-<h3>Hello! Bonjour! Nǐhǎo! 안녕! <br></br>
-<em>I'm Karla! :)</em></h3>
-<br></br>
-  <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View CV</b></a></p>
-</Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item interval={3000}>
-<img className="homeimg" src={'img/2.jpg'} style={{'height': "835px", 'padding-left': "100px", 'padding-right': "100px"}} alt="homeimg"/>
-<Carousel.Caption>
-<h3>I love multitasking. ex. like coding while working lol :p
-<br></br>
-<br></br>
-  <p><a class="btn btn-primary btn-learn" href={'/projects'}><b>View Previous Projects</b></a></p>
-</h3>
-</Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item interval={3000}>
-<img className="homeimg" src={'img/3.jpg'}style={{'height': "835px", 'padding-left': "100px", 'padding-right': "100px"}} alt="homeimg"/>
-<Carousel.Caption>
-<h3>I also do photography when I'm bored. :)
-<br></br>
-<br></br>
-  <p><a class="btn btn-primary btn-learn" href="https://kmphotog.jimdofree.com/"><b>View Photography Site</b></a></p>
-</h3>
-</Carousel.Caption>
-</Carousel.Item>
-</Carousel>
+      return(
+    <MDBContainer >
+      <MDBCarousel style={{'top': "150px" }}
+      activeItem={1}
+      length={3}
+      showControls={true}
+      showIndicators={true}
+      className="z-depth-1"
+    >
+      <MDBCarouselInner>
+        <MDBCarouselItem itemId="1">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="img/1.jpg"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h5 className="h5-responsive">Hello! Bonjour! Nǐhǎo! 안녕! <br/>
+            <em>I'm Karla! :)</em>
+            <br/>
+                      <br/>
+
+            <Button variant="secondary" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View CV</Button>  
+         </h5>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="2">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="img/2.jpg"
+              alt="Second slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+          <h5 className="h5-responsive">I love coding (????????) LOOOL
+          <br/>
+          <br/>        
+            <Button variant="secondary" className="btn btn-primary btn-learn" href={'/projects'}>View Previous Projects</Button>
+          </h5>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="3">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="img/3.jpg"
+              alt="Third slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+          <h5 className="h5-responsive">I sometimes do photography :)
+          <br/>
+          <br/>
+          <Button variant="secondary" className="btn btn-primary btn-learn" href="https://kmphotog.jimdofree.com/">View Photography Site</Button>
+          </h5>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+      </MDBCarouselInner>
+    </MDBCarousel>
+    </MDBContainer>
 )
 }
 }

@@ -2,7 +2,6 @@ import './App.css';
 import React, {Component} from 'react';
 import Navigation from './components/navigation.js'
 import AnimatedCursor from "react-animated-cursor"
-import Homepage from './components/home.js'
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -12,7 +11,7 @@ class App extends Component {
    <Navigation/>
    <ParallaxProvider>
    <AnimatedCursor
-    color='234,181,168'
+    color='234,113,134'
     />
     </ParallaxProvider>
    </div>

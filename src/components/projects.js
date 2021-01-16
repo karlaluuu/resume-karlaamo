@@ -3,50 +3,55 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import StarIcon from '@material-ui/icons/Star';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import {Button} from 'react-bootstrap';
 
 export default class Projects extends Component{
     render()
     {
         return(
 <VerticalTimeline className="project-timeline">
-  <VerticalTimelineElement
+  <VerticalTimelineElement 
     className="vertical-timeline-element--education"
-    date="April 2013"
+        contentStyle={{ background: 'rgb(244,233,232)' }}
+            contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
     iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Project 1</h3>
-    <h4 className="vertical-timeline-element-subtitle">Project 1</h4>
+    <h3 className="vertical-timeline-element-title">EduCloud</h3>
+    <h4 className="vertical-timeline-element-subtitle">ReactJS / MongoDB</h4>
     <p>
-      Description
-    </p>
-      <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
+      A flexible school platform that serves as a communication tool with file sharing capability for the students and tracker / scheduler for school tasks. 
+      It also comes with ChatBot that helps you through the whole app.
+    </p><br/>
+      <Button variant="secondary" class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View Project</Button>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
+    contentStyle={{ background: 'rgb(244,233,232)' }}
+        contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
     iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Project 2</h3>
-    <h4 className="vertical-timeline-element-subtitle">Project 2</h4>
+    <h3 className="vertical-timeline-element-title">Online PetStore API</h3>
+    <h4 className="vertical-timeline-element-subtitle">ASP .Net Core / AWS</h4>
     <p>
-      Description
-    </p>
-          <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
+      A project for API Engineering & Cloud COMP class. An integration with ASP .Net Core 2.1 Web API and publish to AWS Elastic Beanstalk and RDS
+    </p><br/>
+    <Button variant="secondary" class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View Project</Button>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2002 - 2006"
+    contentStyle={{ background: 'rgb(244,233,232)' }}
+        contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
     iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
     icon={<DeveloperModeIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Project 3</h3>
-    <h4 className="vertical-timeline-element-subtitle">Project 1</h4>
+    <h3 className="vertical-timeline-element-title">Reservation Website</h3>
+    <h4 className="vertical-timeline-element-subtitle">ASP .Net Core 2.1</h4>
     <p>
-      Description
-    </p>
-          <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing"><b>View Project</b></a></p>
+      A reservation website for Bruce Peninsula National Park. 
+    </p><br/>
+    <Button variant="secondary" class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View Project</Button>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}

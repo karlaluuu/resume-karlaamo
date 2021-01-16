@@ -12,6 +12,7 @@
   }
 }
 
+
 .App-header {
   background-color: #A78D8A;
   min-height: 100vh;
@@ -45,7 +46,8 @@
   background-color: #CDB7AA;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
+  display: block;
   width: 100% !important;
   font-weight: bold;
 }
@@ -55,9 +57,7 @@
   color: #F6EFE9 !important;
 }
 
-.middle-divider{
-  color: white !important;
-}
+
 .homeimg {
   opacity: 1;
   display: block;
@@ -71,10 +71,11 @@
   background-color: #E5E3DE !important;
   color: black !important;
   outline: black !important;
+  font-weight: bold;
 }
 .btn-learn:hover, .btn-learn:active, .btn-learn:focus
 {
-  color: #483330 !important;
+  color: '#ea7186' !important;
   text-decoration: none !important;
 }
 
@@ -88,4 +89,43 @@
 .timeline, .project-timeline
 {
   top: 100px
+}
+
+.contact1{
+  width: 400px;
+  height: auto;
+  float: left;
+}
+.contact-logo{
+  height: auto;
+  width: 550px;
+  float: right;
+  margin-right: auto;
+}
+.contact-container{
+  border-radius: 25px;
+  padding: 50px;
+  background-color: #BDC2C6;
+  margin-top: 150px;
+  padding: 50px 100px 50px 100px;
+  
+}
+
+.about-container{
+  border-radius: 25px;
+  padding: 50px;
+  background-color: #BDC2C6;
+  margin-top: 150px;
+  padding: 50px 50px 50px 100px;
+}
+.about-logo
+{
+  height: auto;
+  width: 550px;
+  margin: auto;
+}
+
+.h3-about{
+  font-family: "Montserrat" ;
+  font-weight: bold;
 }
