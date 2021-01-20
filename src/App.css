@@ -94,13 +94,14 @@
 .contact1{
   width: 400px;
   height: auto;
-  float: left;
+  
+
+
 }
 .contact-logo{
   height: auto;
   width: 550px;
-  float: right;
-  margin-right: auto;
+ 
 }
 .contact-container{
   border-radius: 25px;
@@ -108,12 +109,9 @@
   background-color: #BDC2C6;
   margin-top: 150px;
   padding: 50px 100px 50px 100px;
-  
 }
-
 .about-container{
   border-radius: 25px;
-  padding: 50px;
   background-color: #BDC2C6;
   margin-top: 150px;
   padding: 50px 50px 50px 100px;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ReactNavbar } from "react-responsive-animate-navbar";
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, BrowserRouter as Router} from 'react-router-dom'
 import Homepage from './home'
 import logo from './logo.png'
 import Timeline from './timeline'
@@ -13,49 +13,48 @@ export default class Navigation extends Component {
    
     render() {
         return (
-            <BrowserRouter>
+<Router>
             <ReactNavbar
         color="#aca3af"
         logo={logo}
         menu={[
-          { name: "HOME", to: "/", component: Homepage,},
-          { name: "TIMELINE", to: "/timeline", component: Timeline },
-          { name: "PROJECTS", to: "/projects", component: Timeline },
+          { name: "HOME", to: "/", component: Homepage},
+          { name: "TIMELINE", to: "/timeline", component: Timeline},
+          { name: "PROJECTS", to: "/projects", component: Projects },
           { name: "ABOUT ME", to: "/about", component: About },
           { name: "CONTACT", to: "/contact", component: Contact },
         ]}
         social={[
           {
-            name: "Linkedin",
-            url: "https://www.linkedin.com/in/nazeh-taha/",
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/karla-mari-amo-214b00b4",
             icon: ["fab", "linkedin-in"],
           },
           {
-            name: "Facebook",
-            url: "https://www.facebook.com/nazeh200/",
-            icon: ["fab", "facebook-f"],
+            name: "Youtube",
+            url: "https://www.youtube.com/user/KarlaMari13",
+            icon: ["fab", "youtube"],
           },
           {
             name: "Instagram",
-            url: "https://www.instagram.com/nazeh_taha/",
+            url: "https://www.instagram.com/karlaluuu",
             icon: ["fab", "instagram"],
           },
           {
-            name: "Twitter",
-            url: "http://nazehtaha.herokuapp.com/",
-            icon: ["fab", "twitter"],
+            name: "Github",
+            url: "https://github.com/karlaluuu",
+            icon: ["fab", "github"],
           },
         ]}
       />
 
-<Switch>
 <Route exact path="/" component={Homepage}/>
 <Route exact path="/timeline" component={Timeline}/>
 <Route exact path="/contact" component={Contact}/>
 <Route exact path="/about" component={About}/>
 <Route exact path="/projects" component={Projects}/>
-</Switch>
-</BrowserRouter>
+</Router>
+
 
             
 

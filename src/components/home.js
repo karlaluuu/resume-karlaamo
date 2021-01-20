@@ -32,7 +32,7 @@ export default class Homepage extends Component {
             <br/>
                       <br/>
 
-            <Button variant="secondary" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View CV</Button>  
+            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1pnOdpAU2tg26OWRIwtHbqp3L7oCr4Wib/view?usp=sharing">View CV</Button>  
          </h5>
           </MDBCarouselCaption>
         </MDBCarouselItem>
@@ -49,7 +49,7 @@ export default class Homepage extends Component {
           <h5 className="h5-responsive">I love coding (????????) LOOOL
           <br/>
           <br/>        
-            <Button variant="secondary" className="btn btn-primary btn-learn" href={'/projects'}>View Previous Projects</Button>
+            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href={'/projects'}>View Previous Projects</Button>
           </h5>
           </MDBCarouselCaption>
         </MDBCarouselItem>
@@ -66,7 +66,7 @@ export default class Homepage extends Component {
           <h5 className="h5-responsive">I sometimes do photography :)
           <br/>
           <br/>
-          <Button variant="secondary" className="btn btn-primary btn-learn" href="https://kmphotog.jimdofree.com/">View Photography Site</Button>
+          <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://kmphotog.jimdofree.com/">View Photography Site</Button>
           </h5>
           </MDBCarouselCaption>
         </MDBCarouselItem>
