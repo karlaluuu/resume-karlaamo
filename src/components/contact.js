@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
-import { Row, Container, Col, Image } from 'react-bootstrap';
+import {  MDBRow, MDBCol, MDBCardBody } from "mdbreact";
+import {  Container, Image } from 'react-bootstrap';
 import * as Icons from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as solidIcons from '@fortawesome/free-solid-svg-icons'
 
