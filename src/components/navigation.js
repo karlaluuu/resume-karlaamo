@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ReactNavbar } from "react-responsive-animate-navbar";
-import { Route, BrowserRouter as Router} from 'react-router-dom'
+import { Route, BrowserRouter, Switch} from 'react-router-dom'
 import Homepage from './home'
 import logo from './logo.png'
 import Timeline from './timeline'
@@ -13,7 +13,7 @@ export default class Navigation extends Component {
    
     render() {
         return (
-<Router>
+       <BrowserRouter>
             <ReactNavbar
         color="#aca3af"
         logo={logo}
@@ -47,13 +47,14 @@ export default class Navigation extends Component {
           },
         ]}
       />
-
+<Switch>
 <Route exact path="/" component={Homepage}/>
 <Route exact path="/timeline" component={Timeline}/>
 <Route exact path="/contact" component={Contact}/>
 <Route exact path="/about" component={About}/>
 <Route exact path="/projects" component={Projects}/>
-</Router>
+</Switch>
+       </BrowserRouter>
 
 
             
