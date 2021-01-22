@@ -14,15 +14,22 @@ export default class Navigation extends Component {
     render() {
         return (
        <BrowserRouter>
+<Switch>
+<Route exact path="/" component={Homepage}/>
+<Route exact path="/timeline" render={()=> <Timeline/>}/>
+<Route exact path="/contact" render={()=> <Contact/>}/>
+<Route exact path="/about" render={()=> <About/>}/>
+<Route exact path="/projects" render={()=> <Projects/>}/>
+</Switch>
             <ReactNavbar
         color="#aca3af"
         logo={logo}
         menu={[
-          { name: "HOME", to: "/", component: Homepage},
-          { name: "TIMELINE", to: "/timeline", component: Timeline},
-          { name: "PROJECTS", to: "/projects", component: Projects },
-          { name: "ABOUT ME", to: "/about", component: About },
-          { name: "CONTACT", to: "/contact", component: Contact },
+          { name: "HOME", to: "/", component: Homepage, render: Homepage},
+          { name: "TIMELINE", to: "/timeline", component: Timeline, render: Timeline},
+          { name: "PROJECTS", to: "/projects", component: Projects, render: Projects },
+          { name: "ABOUT ME", to: "/about", component: About, render: About },
+          { name: "CONTACT", to: "/contact", component: Contact, render: Contact },
         ]}
         social={[
           {
@@ -47,13 +54,7 @@ export default class Navigation extends Component {
           },
         ]}
       />
-<Switch>
-<Route exact path="/" component={Homepage}/>
-<Route exact path="/timeline" component={Timeline}/>
-<Route exact path="/contact" component={Contact}/>
-<Route exact path="/about" component={About}/>
-<Route exact path="/projects" component={Projects}/>
-</Switch>
+
        </BrowserRouter>
 
 
