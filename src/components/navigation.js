@@ -37,7 +37,7 @@ export default class Navigation extends Component {
           },
           {
             name: "Instagram",
-            url: "https://www.instagram.com/karlaluuu",
+            url: "https://www.instagram.com/karlaluuuuu",
             icon: ["fab", "instagram"],
           },
           {
