@@ -14,13 +14,6 @@ export default class Navigation extends Component {
     render() {
         return (
        <BrowserRouter>
-<Switch>
-<Route exact path="/" component={Homepage}/>
-<Route exact path="/timeline" render={()=> <Timeline/>}/>
-<Route exact path="/contact" render={()=> <Contact/>}/>
-<Route exact path="/about" render={()=> <About/>}/>
-<Route exact path="/projects" render={()=> <Projects/>}/>
-</Switch>
             <ReactNavbar
         color="#aca3af"
         logo={logo}
@@ -54,7 +47,13 @@ export default class Navigation extends Component {
           },
         ]}
       />
-
+<Switch>
+<Route exact path="/" component={Homepage}/>
+<Route exact path="/timeline" component={Timeline}/>
+<Route exact path="/contact" component={Contact}/>
+<Route exact path="/about" component={About}/>
+<Route exact path="/projects" component={Projects}/>
+</Switch>
        </BrowserRouter>
 
 
