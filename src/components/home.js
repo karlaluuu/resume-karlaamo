@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Button} from 'react-bootstrap';
+import Projects from './projects'
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
 "mdbreact";
 

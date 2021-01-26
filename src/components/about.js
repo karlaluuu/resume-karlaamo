@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
-import { Row, Container, Image } from 'react-bootstrap';
+import { Row, Container, Col, Image } from 'react-bootstrap';
 import { Divider } from '@material-ui/core';
-import {  MDBRow, MDBCol } from "mdbreact";
+import {  MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import * as Icons from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as solidIcons from '@fortawesome/free-solid-svg-icons'
 
