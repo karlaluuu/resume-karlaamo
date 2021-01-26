@@ -14,15 +14,16 @@ export default class Navigation extends Component {
     render() {
         return (
        <BrowserRouter>
+
             <ReactNavbar
         color="#aca3af"
         logo={logo}
         menu={[
-          { name: "HOME", to: "/", component: Homepage, render: Homepage},
-          { name: "TIMELINE", to: "/timeline", component: Timeline, render: Timeline},
-          { name: "PROJECTS", to: "/projects", component: Projects, render: Projects },
-          { name: "ABOUT ME", to: "/about", component: About, render: About },
-          { name: "CONTACT", to: "/contact", component: Contact, render: Contact },
+          { name: "HOME", to: "/", component: Homepage},
+          { name: "TIMELINE", to: "/timeline", component: Timeline},
+          { name: "PROJECTS", to: "/projects", component: Projects},
+          { name: "ABOUT ME", to: "/about", component: About},
+          { name: "CONTACT", to: "/contact", component: Contact},
         ]}
         social={[
           {
