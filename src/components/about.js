@@ -28,7 +28,7 @@ export default class About extends Component{
             <Divider variant="middle"/>
 
             <MDBRow>
-            <h5 className="h3-responsive font-weight-bold my-5">MY EXPERTISE</h5> 
+            <h3 className="h3-responsive font-weight-bold my-5">MY EXPERTISE</h3> 
             </MDBRow>
 
             <MDBRow>
