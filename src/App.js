@@ -9,11 +9,10 @@ class App extends Component {
   render(){
    return <div >
    <Navigation/>
-   <ParallaxProvider>
    <AnimatedCursor
     color='234,113,134'
     />
-    </ParallaxProvider>
+    
    </div>
   }
 }

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
-import { Row, Container, Col, Image } from 'react-bootstrap';
+import {  MDBRow, MDBCol,MDBCardBody } from "mdbreact";
+import {Container, Image } from 'react-bootstrap';
 import * as Icons from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as solidIcons from '@fortawesome/free-solid-svg-icons'
 
@@ -11,27 +10,27 @@ export default class Contact extends Component
     render()
     {
         return(
-    <Container fluid className="contact-container">
+    <Container fluid className="contact-container"  >
     <section className="contact-section my-10">
         <MDBRow>
-          <MDBCol lg="6">
+          <MDBCol size="6" md="4">
             <Image fluid src={'img/contact1.jpg'} alt="contact-img" className="contact1"/>
           </MDBCol>
-          <MDBCol lg="4">
+          <MDBCol size="12" md="8">
             <MDBCardBody className="contact text-center h-100 white-text">
             <Image fluid src={'img/contact.png'} alt="contact-logo" className="contact-logo"/>
-              <ul className="text-lg-center list-unstyled ml-4">
+              <ul className="text-lg-center list-unstyled ml">
                 <li>
-                  <p>
                   <FontAwesomeIcon icon={solidIcons.faMapMarkerAlt} size="2x"/>
-                    North York, Ontario
+                  <p>
+                    Based in Toronto, ON
                   </p>
                 </li>
+                <br/>
                 <li>
-                  <p>
-                  <i class="fas fa-envelope-square"></i>
                   <FontAwesomeIcon icon={solidIcons.faPaperPlane} size="2x"/>
-                    karlamari13@gmail.com
+                  <p>
+                    <a href="mailto:karlamari13@gmail.com">karlamari13@gmail.com</a>
                   </p>
                 </li>
               </ul>
