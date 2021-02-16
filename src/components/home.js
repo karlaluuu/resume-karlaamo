@@ -17,13 +17,7 @@ export default class Homepage extends Component {
       showIndicators={true}
       className="z-depth-1"
     >
-     <div id="content">
-                <div id="announcement">
-                    <center>
-                        <p><marquee>NOTE: WEBSITE IS STILL UNDER MAINTENANCE! THANK YOU FOR PATIENCE and hopefully the coffee you'll donate ;)</marquee></p>
-                    </center>
-                </div>
-            </div>
+
       <MDBCarouselInner>
         <MDBCarouselItem itemId="1">
           <MDBView>
