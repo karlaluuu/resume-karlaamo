@@ -23,7 +23,8 @@ export default class Projects extends Component{
       A flexible school platform that serves as a communication tool with file sharing capability for the students and tracker / scheduler for school tasks. 
       It also comes with ChatBot that helps you through the whole app. It is a group project for Software Development Class.
     </p><br/>
-      <p>*Currently requesting permission for the whole team created the project for public deployment.</p>
+    <p>Deployed on Netlify, Heroku and MongoDB Atlas</p> <br/>
+            <Button variant="secondary" class="btn btn-primary btn-learn" href="https://educloud-mern.netlify.app">View Project</Button>
       <Button variant="secondary" class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/19ebOU3xwE5ZKdSh9Ae-2q4oSZ5gcFlNa/view?usp=sharing">View Video Recording</Button>
   </VerticalTimelineElement>
   <VerticalTimelineElement
