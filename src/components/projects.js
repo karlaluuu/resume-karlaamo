@@ -60,6 +60,26 @@ export default class Projects extends Component{
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<StarIcon />}
   />
+      <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    contentStyle={{ background: 'rgb(244,233,232)' }}
+        contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
+    iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
+    icon={<DeveloperModeIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">EXP|CON</h3>
+    <h4 className="vertical-timeline-element-subtitle">HTML/CSS</h4>
+    <p>
+       A HTML/CSS based website with a theme of providing virtual concerts in your own home.
+    </p><br/>
+        <p>Deployed on Netlify</p> <br/>
+    <Button variant="secondary" class="btn btn-primary btn-learn" href="https://expcon-static.netlify.app">View Project</Button>
+    <Button variant="secondary" class="btn btn-primary btn-learn" href="https://github.com/karlaluuu/SpeerTech-FrontEndAssessment">View Repository in Github</Button>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<StarIcon />}
+  />
 </VerticalTimeline>
         )
     }
