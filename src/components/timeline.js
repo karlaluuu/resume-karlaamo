@@ -20,9 +20,10 @@ export default class Timeline extends Component{
   >
     <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
     <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario | Scarborough, Ontario</h4>
-    <p>
-      Service Crew
-    </p>
+    <h6>General Crew</h6><br/>
+    <p>Provides accurate and efficient customer service by handling transactions and orders, serving food in a short period of time, and answering customer concerns.</p>
+    <p>Provides assistance on the preparation of orders and additional requests.</p>
+    <p>Maintains cleanliness and sanitation of the store to meet sanitary guidelines and provide quality service.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -32,9 +33,12 @@ export default class Timeline extends Component{
   >
     <h3 className="vertical-timeline-element-title">AGS Automotive Systems</h3>
     <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
-    <p>
-      IT Support Specialist - Coop
-    </p>
+    <h6>IT Support Specialst</h6><br/>
+    <p>Provided Tier 1 support from the corporate office to users from all locations.</p>
+    <p>Assisted the programming department with the development of applications using ASP .Net.</p>
+    <p>Monitored company computer systems and networks.</p>
+    <p>Trained onboarding staff with software and hardware usage. </p>
+    <p>Installed and configured computer hardware, software programs, systems, networks, and other company assets</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
@@ -69,9 +73,9 @@ export default class Timeline extends Component{
   >
     <h3 className="vertical-timeline-element-title">Diversified Technology Solutions International Inc</h3>
     <h4 className="vertical-timeline-element-subtitle">Makati City, Philippines</h4>
-    <p>
-      Human Resource Assistant - Internship/Practicum
-    </p>
+    <h6>Human Resource Assistant - Internship/Practicum</h6><br/>
+    <p>Managed the company's HR Leave Monitoring and Daily Time Record (DTR).</p>
+    <p>In close contact of Accounting Department regarding the employee salary.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
