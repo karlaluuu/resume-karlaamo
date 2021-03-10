@@ -13,24 +13,23 @@ export default class Timeline extends Component{
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
          contentStyle={{ background: 'rgb(244,233,232)' }}
-    contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
-    date="2016 - present"
-    iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
-    icon={<WorkIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
-    <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario | Scarborough, Ontario</h4>
-    <h5>General Crew</h5>
-    <p>Provides accurate and efficient customer service by handling transactions and orders, serving food in a short period of time, and answering customer concerns.</p>
-    <p>Provides assistance on the preparation of orders and additional requests.</p>
-    <p>Maintains cleanliness and sanitation of the store to meet sanitary guidelines and provide quality service.</p>
+         contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
+         date="2016 - present"
+         iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
+         icon={<WorkIcon />}
+         >
+         <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
+         <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario | Scarborough, Ontario</h4>
+         <h5>General Crew</h5>
+         <p>Provides accurate and efficient customer service by handling transactions and orders, serving food in a short period of time, and answering customer concerns.</p>
+         <p>Provides assistance on the preparation of orders and additional requests.</p>
+         <p>Maintains cleanliness and sanitation of the store to meet sanitary guidelines and provide quality service.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="January 2016 - September 2020"
     iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
-    icon={<WorkIcon />}
-  >
+    icon={<WorkIcon />}>
     <h3 className="vertical-timeline-element-title">AGS Automotive Systems</h3>
     <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
     <h5>IT Support Specialst</h5>
@@ -44,8 +43,7 @@ export default class Timeline extends Component{
     className="vertical-timeline-element--education"
     date="September 2017 - December 2020"
     iconStyle={{ background: 'rgb(231,178,191)', color: '#fff' }}
-    icon={<SchoolIcon />}
-  >
+    icon={<SchoolIcon />}>
     <h3 className="vertical-timeline-element-title">Centennial College</h3>
     <h4 className="vertical-timeline-element-subtitle">Scarborough, Ontario</h4>
     <p>
