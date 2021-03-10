@@ -20,7 +20,7 @@ export default class Timeline extends Component{
   >
     <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
     <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario | Scarborough, Ontario</h4>
-    <h6>General Crew</h6><br/>
+    <h5>General Crew</h5>
     <p>Provides accurate and efficient customer service by handling transactions and orders, serving food in a short period of time, and answering customer concerns.</p>
     <p>Provides assistance on the preparation of orders and additional requests.</p>
     <p>Maintains cleanliness and sanitation of the store to meet sanitary guidelines and provide quality service.</p>
@@ -33,7 +33,7 @@ export default class Timeline extends Component{
   >
     <h3 className="vertical-timeline-element-title">AGS Automotive Systems</h3>
     <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
-    <h6>IT Support Specialst</h6><br/>
+    <h5>IT Support Specialst</h5>
     <p>Provided Tier 1 support from the corporate office to users from all locations.</p>
     <p>Assisted the programming department with the development of applications using ASP .Net.</p>
     <p>Monitored company computer systems and networks.</p>
@@ -69,11 +69,10 @@ export default class Timeline extends Component{
     className="vertical-timeline-element--work"
     date="April 2015 - May 2015"
     iconStyle={{ background:'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
-    icon={<WorkIcon />}
-  >
+    icon={<WorkIcon />}>
     <h3 className="vertical-timeline-element-title">Diversified Technology Solutions International Inc</h3>
     <h4 className="vertical-timeline-element-subtitle">Makati City, Philippines</h4>
-    <h6>Human Resource Assistant - Internship/Practicum</h6><br/>
+    <h5>Human Resource Assistant - Internship/Practicum</h5>
     <p>Managed the company's HR Leave Monitoring and Daily Time Record (DTR).</p>
     <p>In close contact of Accounting Department regarding the employee salary.</p>
   </VerticalTimelineElement>
