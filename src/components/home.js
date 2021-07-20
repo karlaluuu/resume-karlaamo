@@ -34,7 +34,7 @@ export default class Homepage extends Component {
             <br/>
                       <br/>
 
-            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/14wbC-_wMtCYFmOKCk2L9qdutFLQ_7NcM/view?usp=sharing">View CV</Button>  
+            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1myqUKgiarVeO0poaDBoB8vOmbU4z760a/view?usp=sharing">View CV</Button>  
          </h5>
           </MDBCarouselCaption>
         </MDBCarouselItem>

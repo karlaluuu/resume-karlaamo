@@ -50,13 +50,16 @@
   font-size: smaller;
   letter-spacing: 3px;
 }
+
 .nav-link{
   margin: 10px;
 }
+
 .nav-link:hover, .nav-link:active, .nav-link:focus{
   border: solid 1px white;
   border-radius: 20px;
 }
+
 a{
   color: black
 }

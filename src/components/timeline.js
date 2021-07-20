@@ -17,13 +17,26 @@ export default class Timeline extends Component{
          date="2016 - present"
          iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
          icon={<WorkIcon />}>
+         <h3 className="vertical-timeline-element-title">Costco Wholesale Inc</h3>
+         <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario</h4>
+         <h5>Cashier Assistant</h5><br/>
+         <p>Provides accurate and efficient customer service by handling transactions and queries.</p>
+
+         </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+         contentStyle={{ background: 'rgb(244,233,232)' }}
+         contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
+         date="2016 - present"
+         iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
+         icon={<WorkIcon />}>
          <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
          <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario | Scarborough, Ontario</h4>
          <h5>General Crew</h5><br/>
          <p>Provides accurate and efficient customer service by handling transactions and orders, serving food in a short period of time, and answering customer concerns.</p>
          <p>Provides assistance on the preparation of orders and additional requests.</p>
          <p>Maintains cleanliness and sanitation of the store to meet sanitary guidelines and provide quality service.</p>
-  </VerticalTimelineElement>
+         </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="January 2016 - September 2020"
