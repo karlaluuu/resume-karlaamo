@@ -10,7 +10,7 @@ export default class Homepage extends Component {
       return(
 
     <MDBContainer >
-      <MDBCarousel style={{'top': "150px" }}
+      <MDBCarousel style={{'top': "50px" }}
       activeItem={1}
       length={3}
       showControls={true}

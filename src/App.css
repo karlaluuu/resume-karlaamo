@@ -14,18 +14,18 @@
 
 
 .App-header {
-  background-color: #A78D8A;
+  background-color: #ae988a ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #989da6;
 }
 
 .App-link {
-  color: #F4D5C9;
+  color: #a08a8c;
 }
 
 @keyframes App-logo-spin {
@@ -43,7 +43,7 @@
 }
 
 .bg-primary{
-  background-color: #89828c !important;
+  background-color: #9e8f8a  !important;
 }
 .nav{
   font-family: sans-serif;
@@ -56,7 +56,7 @@
 }
 
 .nav-link:hover, .nav-link:active, .nav-link:focus{
-  border: solid 1px white;
+  border: solid 2px #b6666f ;
   border-radius: 20px;
 }
 
@@ -91,10 +91,10 @@ a{
 {
   color:#475E60
 }
-.timeline, .project-timeline
+/* .timeline, .project-timeline
 {
   top: 100px
-}
+} */
 
 .contact1{
   width: 400px;
@@ -111,13 +111,13 @@ a{
 .contact-container{
   border-radius: 25px;
   padding: 50px;
-  background-color: #BDC2C6;
+  background-color: #b6666f   ;
   margin-top: 150px;
   padding: 50px 100px 50px 100px;
 }
 .about-container{
   border-radius: 25px;
-  background-color: #BDC2C6;
+  background-color: #b6666f   ;
   margin-top: 150px;
   padding: 50px 50px 50px 100px;
 }

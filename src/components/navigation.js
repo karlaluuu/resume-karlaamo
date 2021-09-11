@@ -33,7 +33,7 @@ export default class Navigation extends Component {
     render() {
         return (
        <BrowserRouter>
-      <MDBNavbar fixed="top" dark expand="md" scrolling transparent color="bg-primary" className="nav" >       
+      <MDBNavbar  light expand="md" scrolling transparent  className="nav" >       
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                

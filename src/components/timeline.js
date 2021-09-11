@@ -10,24 +10,43 @@ export default class Timeline extends Component{
     {
         return(
         <VerticalTimeline className="timeline">
+
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
          contentStyle={{ background: 'rgb(244,233,232)' }}
          contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
-         date="2016 - present"
+         date="July 2021 - present"
+         iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
+         icon={<WorkIcon />}>
+         <h3 className="vertical-timeline-element-title">Milano Software</h3>
+         <h4 className="vertical-timeline-element-subtitle">Richmond Hill, Ontario</h4>
+         <h5>Software Support Specialist</h5><br/>
+         <p>Provides telephone support for Milano clients</p>
+         <p>In charge with computer hardware and software of the company</p>
+         <p>Provides User Training (Development and Presentation) to clients</p>
+
+         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+
+         contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
+         date="April 2021 - July 2021"
          iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
          icon={<WorkIcon />}>
          <h3 className="vertical-timeline-element-title">Costco Wholesale Inc</h3>
          <h4 className="vertical-timeline-element-subtitle">Toronto, Ontario</h4>
          <h5>Cashier Assistant</h5><br/>
          <p>Provides accurate and efficient customer service by handling transactions and queries.</p>
-
+         <p>Packs members orders into boxes and loads to a separate cart or flatbed. Assisting members loading orders into car when appropriate.</p>
+         <p>Runs for items such as mechandise, boxes, register supplies and item numbers as requested by cashiers to keep lines moving smoothly.</p>
+         <p>Support the cashier during various promotions</p>
          </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
-         contentStyle={{ background: 'rgb(244,233,232)' }}
+
          contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
-         date="2016 - present"
+         date="2016 - April 2021"
          iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
          icon={<WorkIcon />}>
          <h3 className="vertical-timeline-element-title">McDonald's Restaurant of Canada</h3>
@@ -44,7 +63,7 @@ export default class Timeline extends Component{
     icon={<WorkIcon />}>
     <h3 className="vertical-timeline-element-title">AGS Automotive Systems</h3>
     <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
-    <h5>IT Support Specialst</h5><br/>
+    <h5>IT Support Specialist</h5><br/>
     <p>Provided Tier 1 support from the corporate office to users from all locations.</p>
     <p>Assisted the programming department with the development of applications using ASP .Net.</p>
     <p>Monitored company computer systems and networks.</p>
