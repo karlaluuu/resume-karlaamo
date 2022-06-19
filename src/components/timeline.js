@@ -10,12 +10,27 @@ export default class Timeline extends Component{
     {
         return(
         <VerticalTimeline className="timeline">
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+
+         contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
+         date="January 2022 - Present"
+         iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
+         icon={<WorkIcon />}>
+         <h3 className="vertical-timeline-element-title">Canadian Imperial Bank of Commerce</h3>
+         <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
+         <h5>Test Analyst - Coop</h5>
+         <h6>January - June</h6>
+         <h5>Senior Test Analyst</h5>
+         <h6>June - Present</h6>
+         <br/>
+         </VerticalTimelineElement>
 
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
          contentStyle={{ background: 'rgb(244,233,232)' }}
          contentArrowStyle={{ borderRight: '10px solid rgb(244,233,232)' }}
-         date="July 2021 - present"
+         date="July 2021 - December 2021"
          iconStyle={{ background: 'rgb(196,224,220)', color: 'rgb(172,172,172)' }}
          icon={<WorkIcon />}>
          <h3 className="vertical-timeline-element-title">Milano Software</h3>

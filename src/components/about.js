@@ -36,7 +36,7 @@ export default class About extends Component{
             <FontAwesomeIcon icon={solidIcons.faLaptopCode} size="3x"/>
             <h5 className="font-weight-bold my-4">Web Development</h5>
             <p className="grey-text mb-md-0 mb-5">
-              I have academic knowledge in building websites using HTML/CSS, ASP .Net, Javascript and ReactJS
+              I have academic knowledge in building websites using HTML/CSS, ASP .Net, Javascript and ReactJS.
             </p>
           </MDBCol>
           <MDBCol md="4">
@@ -50,7 +50,7 @@ export default class About extends Component{
             <FontAwesomeIcon icon={solidIcons.faDatabase} size="3x"/>
             <h5 className="font-weight-bold my-4">Windows Server Administration</h5>
             <p className="grey-text mb-md-0 mb-5">
-              I've had an Coop term with IT Support Specialist. From there, I've got an good grasp dealing with Windows Servers, Active Directory, Microsoft Exchange and everything else revolving around it.
+              I've had an Coop term as IT Support Specialist. From there, I've got a good grasp dealing with Windows Servers, Active Directory, Microsoft Exchange and everything else revolving around it.
             </p>
           </MDBCol>
         </MDBRow>

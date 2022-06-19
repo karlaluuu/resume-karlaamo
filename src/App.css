@@ -113,12 +113,14 @@ a{
   padding: 50px;
   background-color: #b6666f   ;
   margin-top: 150px;
+  width: 75%;;
   padding: 50px 100px 50px 100px;
 }
 .about-container{
   border-radius: 25px;
   background-color: #b6666f   ;
   margin-top: 150px;
+  width: 75%;
   padding: 50px 50px 50px 100px;
 }
 .about-logo
