@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import StarIcon from '@material-ui/icons/Star';
-import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import StarIcon from '@mui/icons-material/Star';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import {Button} from 'react-bootstrap';
 
 export default class Projects extends Component{

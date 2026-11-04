@@ -1,80 +1,122 @@
-import React, {Component} from "react";
-import {Button} from 'react-bootstrap';
-import Projects from './projects'
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
 
+import React, { Component } from 'react';
+import { Button, Carousel, Container } from 'react-bootstrap';
 
-export default class Homepage extends Component {
-    render(){
-      return(
+export default class Homepage extends Component {
+  render() {
+    return (
+      <Container fluid className="homepage-container">
 
-    <MDBContainer >
-      <MDBCarousel style={{'top': "50px" }}
-      activeItem={1}
-      length={3}
-      showControls={true}
-      showIndicators={true}
-      className="z-depth-1"
-    >
+        <Carousel
+          fade
+          indicators={true}
+          controls={true}
+          pause="hover"
+          keyboard={true}
+          touch={true}
+          className="homepage-carousel"
+        >
 
-      <MDBCarouselInner>
-        <MDBCarouselItem itemId="1">
-          <MDBView>
+          {/* Slide 1 - Introduction */}
+          <Carousel.Item interval={5000}>
             <img
-              className="d-block w-100"
+              className="d-block w-100 homepage-image"
               src="img/1.jpg"
-              alt="First slide"
+              alt="Welcome to my portfolio"
             />
-          <MDBMask overlay="black-light" />
-          </MDBView>
-          <MDBCarouselCaption>
-            <h5 className="h5-responsive">Hello! Bonjour! Nǐhǎo! 안녕! <br/>
-            <em>I'm Karla! :)</em>
-            <br/>
-                      <br/>
 
-            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1myqUKgiarVeO0poaDBoB8vOmbU4z760a/view?usp=sharing">View CV</Button>  
-         </h5>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="2">
-          <MDBView>
+            <Carousel.Caption className="homepage-caption">
+              <h1 className="font-weight-bold">
+                Hello! Bonjour! Nǐ hǎo! 안녕!
+              </h1>
+
+              <h2>
+                I'm Karla!
+              </h2>
+
+              <p>
+                Quality Assurance Analyst | Software Engineering Graduate
+              </p>
+
+              <Button
+                variant="primary"
+                className="btn-learn"
+                href="https://drive.google.com/file/d/1zF6LOvt4VPJFtvz1ovTfBMCQgpreJYdQ/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View My Resume
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* Slide 2 - Professional Experience */}
+          <Carousel.Item interval={5000}>
             <img
-              className="d-block w-100"
+              className="d-block w-100 homepage-image"
               src="img/2.jpg"
-              alt="Second slide"
+              alt="Technology and software development"
             />
-          <MDBMask overlay="black-light" />
-          </MDBView>
-          <MDBCarouselCaption>
-          <h5 className="h5-responsive">I love coding (????????) LOOOL
-          <br/>
-          <br/>        
-            <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href={'/projects'}>View Previous Projects</Button>
-          </h5>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="3">
-          <MDBView>
+
+            <Carousel.Caption className="homepage-caption">
+              <h2 className="font-weight-bold">
+                Turning Problems Into Solutions
+              </h2>
+
+              <p>
+                5 years of experience in Quality Assurance,
+                software testing, and production support.
+              </p>
+
+              <p>
+                Always learning, exploring new technologies,
+                and finding better ways to solve problems.
+              </p>
+
+              <Button
+                variant="primary"
+                className="btn-learn"
+                href="/projects"
+              >
+                Explore My Projects
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* Slide 3 - Personal Interests */}
+          <Carousel.Item interval={5000}>
             <img
-              className="d-block w-100"
+              className="d-block w-100 homepage-image"
               src="img/3.jpg"
-              alt="Third slide"
+              alt="My photography and creative interests"
             />
-          <MDBMask overlay="black-light" />
-          </MDBView>
-          <MDBCarouselCaption>
-          <h5 className="h5-responsive">I sometimes do photography :)
-          <br/>
-          <br/>
-          <Button variant="secondary" size="sm" className="btn btn-primary btn-learn" href="https://kmphotog.jimdofree.com/">View Photography Site</Button>
-          </h5>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-      </MDBCarouselInner>
-    </MDBCarousel>
-    </MDBContainer>
-)
-}
+
+            <Carousel.Caption className="homepage-caption">
+              <h2 className="font-weight-bold">
+                Beyond the Screen
+              </h2>
+
+              <p>
+                When I'm not working with technology,
+                you'll probably find me exploring photography,
+                discovering new things, or getting creative.
+              </p>
+
+              <Button
+                variant="primary"
+                className="btn-learn"
+                href="https://www.instagram.com/zyyyril.k?utm_source=ig_web_button_share_sheet&psln=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore My Photography
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+        </Carousel>
+
+      </Container>
+    );
+  }
 }

@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
-import StarIcon from '@material-ui/icons/Star';
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work';
+import StarIcon from '@mui/icons-material/Star';
 
 export default class Timeline extends Component{
     render()
@@ -20,10 +20,21 @@ export default class Timeline extends Component{
          <h3 className="vertical-timeline-element-title">Canadian Imperial Bank of Commerce</h3>
          <h4 className="vertical-timeline-element-subtitle">North York, Ontario</h4>
          <h5>Test Analyst - Coop</h5>
-         <h6>January - June</h6>
+         <h6>January - June 2022</h6>
          <h5>Senior Test Analyst</h5>
-         <h6>June - Present</h6>
+         <h6>June - December 2023</h6>
+         <h5>QA Consultant</h5>
+         <h6>December 2023- Present</h6>
          <br/>
+         <p>Provides support to the QA team in testing and analyzing the CIBC applications.</p>
+         <p>Created and updated test matrices based on business program/requirements </p>
+         <p>Executed, developed and updated test cases using HP Application Lifecycle Management </p>
+         <p>Worked with different teams to troubleshoot different issues surrounding 12 Banking Center Applications in CIBC </p>
+         <p>Performed Regression Testing, Functional Testing, Integration Testing and User Acceptance Testing on different applications</p>
+         <p>Identified, created and retested defects detected on a CIBC application/s using HP ALM </p>
+         <p>Collaborated with cross-functional teams to ensure comprehensive test coverage and effective communication of testing progress and results</p>
+         <p>Strong commitment in providing quality results accurately and timely</p>
+         <p>Capable to work under pressure</p>
          </VerticalTimelineElement>
 
         <VerticalTimelineElement
