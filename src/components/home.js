@@ -1,43 +1,27 @@
 
 import React, { Component } from 'react';
-import { Button, Carousel, Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default class Homepage extends Component {
   render() {
     return (
       <Container fluid className="homepage-container">
-
         <Carousel
-          fade
-          indicators={true}
-          controls={true}
-          pause="hover"
-          keyboard={true}
-          touch={true}
+          autoPlay
+          infiniteLoop
+          showThumbs={false}
+          showStatus={false}
+          showArrows
           className="homepage-carousel"
         >
-
-          {/* Slide 1 - Introduction */}
-          <Carousel.Item interval={5000}>
-            <img
-              className="d-block w-100 homepage-image"
-              src="img/1.jpg"
-              alt="Welcome to my portfolio"
-            />
-
-            <Carousel.Caption className="homepage-caption">
-              <h1 className="font-weight-bold">
-                Hello! Bonjour! Nǐ hǎo! 안녕!
-              </h1>
-
-              <h2>
-                I'm Karla!
-              </h2>
-
-              <p>
-                Quality Assurance Analyst | Software Engineering Graduate
-              </p>
-
+          <div>
+            <img className="homepage-image" src="img/1.jpg" alt="Welcome to my portfolio" />
+            <div className="homepage-caption carousel-caption">
+              <h1 className="font-weight-bold">Hello! Bonjour! Nǐ hǎo! 안녕!</h1>
+              <h2>I&apos;m Karla!</h2>
+              <p>Quality Assurance Analyst | Software Engineering Graduate</p>
               <Button
                 variant="primary"
                 className="btn-learn"
@@ -47,61 +31,26 @@ export default class Homepage extends Component {
               >
                 View My Resume
               </Button>
-            </Carousel.Caption>
-          </Carousel.Item>
+            </div>
+          </div>
 
-          {/* Slide 2 - Professional Experience */}
-          <Carousel.Item interval={5000}>
-            <img
-              className="d-block w-100 homepage-image"
-              src="img/2.jpg"
-              alt="Technology and software development"
-            />
-
-            <Carousel.Caption className="homepage-caption">
-              <h2 className="font-weight-bold">
-                Turning Problems Into Solutions
-              </h2>
-
-              <p>
-                5 years of experience in Quality Assurance,
-                software testing, and production support.
-              </p>
-
-              <p>
-                Always learning, exploring new technologies,
-                and finding better ways to solve problems.
-              </p>
-
-              <Button
-                variant="primary"
-                className="btn-learn"
-                href="/projects"
-              >
+          <div>
+            <img className="homepage-image" src="img/2.jpg" alt="Technology and software development" />
+            <div className="homepage-caption carousel-caption">
+              <h2 className="font-weight-bold">Turning Problems Into Solutions</h2>
+              <p>5 years of experience in Quality Assurance, software testing, and production support.</p>
+              <p>Always learning, exploring new technologies, and finding better ways to solve problems.</p>
+              <Button variant="primary" className="btn-learn" href="/projects">
                 Explore My Projects
               </Button>
-            </Carousel.Caption>
-          </Carousel.Item>
+            </div>
+          </div>
 
-          {/* Slide 3 - Personal Interests */}
-          <Carousel.Item interval={5000}>
-            <img
-              className="d-block w-100 homepage-image"
-              src="img/3.jpg"
-              alt="My photography and creative interests"
-            />
-
-            <Carousel.Caption className="homepage-caption">
-              <h2 className="font-weight-bold">
-                Beyond the Screen
-              </h2>
-
-              <p>
-                When I'm not working with technology,
-                you'll probably find me exploring photography,
-                discovering new things, or getting creative.
-              </p>
-
+          <div>
+            <img className="homepage-image" src="img/3.jpg" alt="My photography and creative interests" />
+            <div className="homepage-caption carousel-caption">
+              <h2 className="font-weight-bold">Beyond the Screen</h2>
+              <p>When I&apos;m not working with technology, you&apos;ll probably find me exploring photography, discovering new things, or getting creative.</p>
               <Button
                 variant="primary"
                 className="btn-learn"
@@ -111,11 +60,9 @@ export default class Homepage extends Component {
               >
                 Explore My Photography
               </Button>
-            </Carousel.Caption>
-          </Carousel.Item>
-
+            </div>
+          </div>
         </Carousel>
-
       </Container>
     );
   }
