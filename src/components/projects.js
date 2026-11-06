@@ -9,6 +9,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import StarIcon from '@mui/icons-material/Star';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import { Button } from 'react-bootstrap';
+import Container from '@mui/material/Container';
+import Container from 'react-bootstrap/Container';
+import { Container } from 'semantic-ui-react';
+
 
 export default class Projects extends Component {
   render() {
